@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="chars">
+        <item>Fox</item>
+        <item>Falco</item>
+        <item>Marth</item>
+        <item>Sheik</item>
+    </string-array>
+</resources>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">HitboxSystem</string>
+    <string name="title_activity_splash">SSBM Hitbox System</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main">SSBM Hitbox System</string>
+    <string name="menu_glossary">Glossary of Terms</string>
+
+</resources>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="moves">
+
+        <item>Jab</item>
+        <item>Forward Tilt</item>
+        <item>Up Tilt</item>
+        <item>Down Tilt</item>
+
+        <item>Dash Attack</item>
+
+        <item>Forward Smash</item>
+        <item>Up Smash</item>
+        <item>Down Smash</item>
+
+        <item>Neutral Aerial</item>
+        <item>Forward Aerial</item>
+        <item>Backward Aerial</item>
+        <item>Up Aerial</item>
+        <item>Down Aerial</item>
+
+        <item>Neutral Special</item>
+        <item>Side Special</item>
+        <item>Up Special</item>
+        <item>Down Special</item>
+
+        <item>Grab</item>
+        <item>Dash Grab</item>
+
+        <item>Spot Dodge</item>
+        <item>Roll Forward</item>
+        <item>Roll Backward</item>
+        <item>Air Dodge</item>
+
+    </string-array>
+</resources>

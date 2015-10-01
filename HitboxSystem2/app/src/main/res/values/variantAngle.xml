@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="variantAngle">
+        <item>Mid-Angled</item>
+        <item>Up-Angled</item>
+        <item>Down-Angled</item>
+    </string-array>
+</resources>

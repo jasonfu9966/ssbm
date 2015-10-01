@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--For special moves-->
+    <string-array name="variantAerial">
+        <item>Grounded</item>
+        <item>Aerial</item>
+    </string-array>
+</resources>

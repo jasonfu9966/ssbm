@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="variantJab3rapid">
+        <item>First Hit</item>
+        <item>Second Hit</item>
+        <item>Third Hit</item>
+        <item>Rapid Jab</item>
+    </string-array>
+</resources>

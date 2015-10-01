@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="variantJab3">
+        <item>First Hit</item>
+        <item>Second Hit</item>
+        <item>Third Hit</item>
+    </string-array>
+</resources>

@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.tapewormsinc.giggles.hitboxsystem.MainActivity">
+<item android:id="@+id/glossary" android:title="@string/menu_glossary" />
+    <item android:id="@+id/action_settings" android:title="@string/action_settings"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <!--
+    <item android:id="@+id/credits" android:title="Credits" />
+-->
+</menu>
+
+<!--Contents:
+    Glossary
+    settings
+        - Character sort
+        - color theme?
+    Credits
+-->

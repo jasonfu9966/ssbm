@@ -1,0 +1,125 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:id="@+id/main"
+    android:name="com.tapewormsinc.giggles.hitboxsystem.MainActivity"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Character text and dropdown menu -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Character"
+        android:id="@+id/characterText"
+        android:layout_marginLeft="25dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="25dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/charSpinner"
+        android:layout_below="@+id/characterText"
+        android:layout_alignLeft="@+id/characterText"
+        android:layout_alignStart="@+id/characterText"
+        android:spinnerMode="dropdown" />
+
+
+    <!-- movelist text and dropdown menu -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Move"
+        android:id="@+id/moveText"
+        android:layout_below="@+id/charSpinner"
+        android:layout_alignLeft="@+id/charSpinner"
+        android:layout_alignStart="@+id/charSpinner" />
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/moveSpinner"
+        android:spinnerMode="dropdown"
+        android:layout_below="@+id/moveText"
+        android:layout_alignLeft="@+id/moveText"
+        android:layout_alignStart="@+id/moveText" />
+
+    <!-- Variant text and dropdown menu
+        make this appear only when applicable through some source code
+        maybe by making text blank and blank variant
+        -->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Variant"
+        android:id="@+id/variantText"
+        android:layout_below="@+id/moveSpinner"
+        android:layout_alignLeft="@+id/moveSpinner"
+        android:layout_alignStart="@+id/moveSpinner" />
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/variantSpinner"
+        android:spinnerMode="dropdown"
+        android:layout_below="@+id/variantText"
+        android:layout_alignLeft="@+id/variantText"
+        android:layout_alignStart="@+id/variantText" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Go"
+        android:id="@+id/submit"
+        android:layout_below="@+id/variantSpinner"
+        android:layout_toRightOf="@+id/moveText"
+        android:layout_toEndOf="@+id/moveText" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Move info will appear here."
+        android:id="@+id/infoLabels"
+        android:textAlignment="center"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="25dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:typeface="monospace"
+        android:textSize="12dp"
+        android:textStyle="bold" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="View Hitboxes"
+        android:id="@+id/viewHitboxButton"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        android:layout_alignLeft="@+id/infoLabels"
+        android:layout_alignStart="@+id/infoLabels"
+        android:layout_marginLeft="25dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:id="@+id/frameInfo"
+        android:layout_alignTop="@+id/infoLabels"
+        android:layout_toRightOf="@+id/infoLabels"
+        android:typeface="monospace"
+        android:textSize="12dp" />
+
+</RelativeLayout>

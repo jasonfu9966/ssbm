@@ -1,0 +1,39 @@
+{
+	"Backward Aerial": {
+	"name":"About Face",
+	"variantCode":0,
+	"damage":"4-15%",
+	"total":"39",
+	"active":"7-11",
+	"IASA":"35",
+	"auto":"after 32",
+	"notes1":"Landing lag: 24",
+	"notes2":"L-canceled: 12",
+	"notes3":""},
+
+	"Down Special": {
+	"name":"Counter",
+	"variantCode":0,
+	"damage":"7%",
+	"total":"59",
+	"active":"5-29",
+	"IASA":"",
+	"auto":"",
+	"notes1":"when it hits:",
+	"notes2":"total: 46; hit 14-20 (or 1 frame later",
+	"notes3":"on very strong moves); invincible 1-16"},
+
+	"Forward Tilt": {
+	"name":"Sharp Edge",
+	"variantCode":0,
+	"damage":"4-13%",
+	"total":"35",
+	"active":"7-10",
+	"IASA":"",
+	"auto":"",
+	"notes1":"",
+	"notes2":"",
+	"notes3":""}
+
+
+}

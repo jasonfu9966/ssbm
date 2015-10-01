@@ -1,0 +1,39 @@
+{
+	"Backward Aerial": {
+	"name":"Flying Swallow",
+	"variantCode":0,
+	"damage":"3-14%",
+	"total":"37",
+	"active":"4-19",
+	"IASA":"38",
+	"auto":"before 3, after 25",
+	"notes1":"Landing lag: 16",
+	"notes2":"L-canceled: 8",
+	"notes3":"Sweetspot is on the foot"},
+
+	"Down Special": {
+	"name":"The Worst Move in the Game",
+	"variantCode":0,
+	"damage":"",
+	"total":"62",
+	"active":"(invulnerable) 27-36",
+	"IASA":"",
+	"auto":"",
+	"notes1":"First frame of Zelda: 37",
+	"notes2":"Zelda's Transform is different",
+	"notes3":""},
+
+	"Forward Tilt": {
+	"name":"Wheel Kick",
+	"variantCode":0,
+	"damage":"3-7%",
+	"total":"29",
+	"active":"5-10",
+	"IASA":"27",
+	"auto":"",
+	"notes1":"",
+	"notes2":"",
+	"notes3":""}
+
+
+}

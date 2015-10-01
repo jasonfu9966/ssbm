@@ -1,0 +1,39 @@
+{
+	"Backward Aerial": {
+	"name":"Reverse Spin Kick",
+	"variantCode":0,
+	"damage":"4-15%",
+	"total":"39",
+	"active":"4-19",
+	"IASA":"38",
+	"auto":"before 3, after 23",
+	"notes1":"Landing lag: 20",
+	"notes2":"L-canceled: 10",
+	"notes3":""},
+
+	"Down Special": {
+	"name":"Reflector / Shine",
+	"variantCode":0,
+	"damage":"5% on contact; 1.5x projectile dmg",
+	"total":"39+",
+	"active":"4-21 or release + 1",
+	"IASA":"",
+	"auto":"",
+	"notes1":"lag after release: 19 (without jump)",
+	"notes2":"can be jump canceled on frame 2",
+	"notes3":"invincible on frame 1"},
+
+	"Forward Tilt": {
+	"name":"Bird Kick",
+	"variantCode":2,
+	"damage":"4-9%",
+	"total":"26",
+	"active":"5-9",
+	"IASA":"",
+	"auto":"",
+	"notes1":"",
+	"notes2":"",
+	"notes3":""}
+
+
+}

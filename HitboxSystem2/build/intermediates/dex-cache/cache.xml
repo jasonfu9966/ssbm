@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\Deep Thought\Dropbox\Public\ssbm\HitboxSystem2\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4e86306289ace4aa0cfec44a05ed2b410d36989d">
+        <dex dex="C:\Users\Deep Thought\Dropbox\Public\ssbm\HitboxSystem2\app\build\intermediates\pre-dexed\debug\classes-29c8051088774ceefe3f42b93e62b99e1de2a1aa.jar" />
+    </item>
+    <item
+        jar="C:\Users\Deep Thought\Dropbox\Public\ssbm\HitboxSystem2\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="d84409890828e07d344a3b9b1da545dba9897b51">
+        <dex dex="C:\Users\Deep Thought\Dropbox\Public\ssbm\HitboxSystem2\app\build\intermediates\pre-dexed\debug\classes-942a45e474c055ac5554e3e82e99ecdb4cbaf940.jar" />
+    </item>
+    <item
+        jar="C:\Users\Deep Thought\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\22.0.0\support-annotations-22.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="685d0b2c590447e85284ed84712cb363ba04eff8">
+        <dex dex="C:\Users\Deep Thought\Dropbox\Public\ssbm\HitboxSystem2\app\build\intermediates\pre-dexed\debug\support-annotations-22.0.0-6467ade339fddbd640755f63318f2c0981781bb6.jar" />
+    </item>
+    <item
+        jar="C:\Users\Deep Thought\Dropbox\Public\ssbm\HitboxSystem2\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\jars\libs\internal_impl-22.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="b5b92f469d515a13d778900f6d50c03d12f35504">
+        <dex dex="C:\Users\Deep Thought\Dropbox\Public\ssbm\HitboxSystem2\app\build\intermediates\pre-dexed\debug\internal_impl-22.0.0-12b041b1430ec96b4a3bd883e773b5ccc86c2687.jar" />
+    </item>
+
+</items>
